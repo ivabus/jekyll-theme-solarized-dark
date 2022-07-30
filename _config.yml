@@ -1,0 +1,18 @@
+name: "Solarized Dark"
+description: "Jekyll theme"
+
+permalink: "/:year/:month/:day/:title/"
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'LICENSE']
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
