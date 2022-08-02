@@ -17,7 +17,7 @@ You can customize `_config.yml`, any assets and layouts for your own needs.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/ivabus/jekyll-theme-solarized-dark.
+Bug reports and pull requests are welcome on [GitHub](https://github.com/ivabus/jekyll-theme-solarized-dark).
 
 ## Development
 
