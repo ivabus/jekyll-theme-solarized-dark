@@ -160,9 +160,9 @@ h6 {
 #sidebar {
 	position: absolute;
 	text-align: left;
-	width: 240px;
+	width: 250px;
 	top: 0;
-	left: -240px;
+	left: -250px;
 }
 
 #sidebar li {
