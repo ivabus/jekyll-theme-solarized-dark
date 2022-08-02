@@ -13,7 +13,7 @@ _layouts/
 ```
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+You can customize `_config.yml`, any assets and layouts for your own needs.
 
 ## Contributing
 
