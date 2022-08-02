@@ -33,8 +33,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
 /*** Basics ***/
 body {
 	font-family: 'JetBrains Mono', monospace;
@@ -65,14 +63,14 @@ code {
   border-radius: 6px;
   padding-left: 3px;
   padding-right: 3px;
-  color: #b58900;
+  color: #eee8d5;
 }
 
 blockquote {
-    margin: 22px 22px;
+    margin: 0px 0px;
     padding: 0 20px;
     border-left: 2px solid #000000;
-    font-size: 1.2em;
+    font-size: 14px;
     font-style: italic;
     line-height: 1.5em;
 }
@@ -85,14 +83,26 @@ acronym, abbr {
 
 
 h1 {
-	font-size: 17px;
+	font-size: 20px;
 	margin: 0 0 10px 0;
 }
 h2 {
-	font-size: 15px;
+	font-size: 18px;
 	margin: 0 0 10px 0;
 }
 h3 {
+	font-size: 16px;
+	margin: 0 0 10px 0;
+}
+h4 {
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+h5 {
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+h6 {
 	font-size: 14px;
 	margin: 0 0 10px 0;
 }
@@ -149,8 +159,8 @@ h3 {
 
 #sidebar {
 	position: absolute;
-	text-align: right;
-	width: 160px;
+	text-align: left;
+	width: 240px;
 	top: 0;
 	left: -240px;
 }
@@ -169,7 +179,7 @@ h3 {
 
 
 article h1 {
-	font-size: 17px;
+	font-size: 16px;
 	margin: 0 0 10px 0;
 }
 article h1 a {
@@ -205,25 +215,6 @@ img.center {
 	margin: 0 auto 1em auto;
 }
 
-
-
-/*** Pagination ***/
-.postnavigation {
-	padding-top: 10px;
-    text-align: center;
-    font-size: 0.85em;
-}
-
-.postnavigation .left {
-	float: left;
-}
-
-.postnavigation .right {
-	float: right;
-}
-
-
-
 /*** Media Queries ***/
 @media all and (max-width: 870px) {
 
@@ -238,7 +229,7 @@ img.center {
 		text-align: left;
 		width: 100%;
 		left: 0;
-		margin: 10px 10px 20px 10px;
+		margin: 0px 0px 0px 0px;
 	}
 
 	#sidebar nav select.mnav {
@@ -266,7 +257,7 @@ a:hover {
 	color: #b58900;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
 	color: #b58900;
 }
 
