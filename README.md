@@ -49,4 +49,3 @@ To build site and start server run `bundle exec jekyll s`. Server will be presen
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
